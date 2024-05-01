@@ -112,7 +112,7 @@ class WriteFragment : Fragment() {
 
 
         binding.textView1.setOnClickListener {
-            
+
             val userData  = User(
                 binding.editTextText.text.toString(),
                 raiting,
